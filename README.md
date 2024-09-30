@@ -1,6 +1,6 @@
 # ece5831-2024-assignments
 
-Mukul Bhatia 
+# 02
 
 (2) learn-python-2.ipynb is the file for Data Science Tutorials from https://www.learnpython.org/
 
@@ -19,3 +19,11 @@ billing.py, pricing.py and product.py are dependencies for (5) python-tutorial-1
 cars.csv, hello.txt and test.txt are dependencies for Section 12 in (6) python-tutorial-12-15.ipynb
 
 sales in a depository for Section 13 in (6) python-tutorial-12-15.ipynb
+
+# 03
+
+logic_gate.py is a python file, with a class LogicGate and functions for all logic gates inside 
+
+module3.py is where i implemented all the logic gates with test cases
+
+module3.ipynb is detailed with every heading for every part of the code
