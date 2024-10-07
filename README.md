@@ -27,3 +27,11 @@ logic_gate.py is a python file, with a class LogicGate and functions for all log
 module3.py is where i implemented all the logic gates with test cases
 
 module3.ipynb is detailed with every heading for every part of the code
+
+# 04
+
+multilayer_perceptron.py is the file with class MultilayerPerceptron that uses functions to solve for three layers of perceptron.
+
+module4.py tests and validates the script from multilayer_perceptron.py
+
+module4.ipynb is a detailed and explained version of first trying step function, then sigmoid function and plotting their graphs, to multilayer perceptron 
