@@ -1,0 +1,26 @@
+#zip 
+*.zip
+
+# Keras neural network models
+*.h5
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+
+# Ignore all .jpg files
+*.jpg
+
+# Ignore all .txt files
+*.txt
+
+# Ignore the __pycache__ directory (used by Python)
+__pycache__/

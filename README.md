@@ -35,3 +35,13 @@ multilayer_perceptron.py is the file with class MultilayerPerceptron that uses f
 module4.py tests and validates the script from multilayer_perceptron.py
 
 module4.ipynb is a detailed and explained version of first trying step function, then sigmoid function and plotting their graphs, to multilayer perceptron 
+ 
+# 05
+
+Video Link for rock-paper-scissor-live.py => https://youtu.be/0vIVxSZjS68 
+
+rock_paper_scissors.py uses the model keras_model.h5 to get predictions for a single iamge of class paper with a confidence score of 1.000
+
+rock_paper_scissors_live.py uses the same model to predict rock, paper, or scissor using webcam 
+
+teachables.ipynb is using rock_paper_scissors.py to test the model in different images (2 images of each class)
