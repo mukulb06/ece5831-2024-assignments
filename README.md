@@ -45,3 +45,15 @@ rock_paper_scissors.py uses the model keras_model.h5 to get predictions for a si
 rock_paper_scissors_live.py uses the same model to predict rock, paper, or scissor using webcam 
 
 teachables.ipynb is using rock_paper_scissors.py to test the model in different images (2 images of each class)
+
+# 06 
+
+module5-2.ipynb shows the implementation of different functions, softmax function, updates softmax function, _download(), _download_all(), _load_images(), _load_labels(), _create_dataset(), _change_one_hot_label(), _init_dataset,   and MnistData class
+
+mnist_data.py is for MnistData class, when the script is run it prints MnistData class is to load MNIST datasets, and   Returns(train_images, train_labels), (test_images, test_labels) 
+
+module5-2.py tests mnist_data.py, to run module5-.py write in the command module
+python module5-2.py [train/test] [number]
+for example, 
+python module5-2.py train 109
+and it shows the image with the label, and the label is also printed in terminal. 
