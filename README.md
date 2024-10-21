@@ -46,7 +46,7 @@ rock_paper_scissors_live.py uses the same model to predict rock, paper, or sciss
 
 teachables.ipynb is using rock_paper_scissors.py to test the model in different images (2 images of each class)
 
-# 06 
+# 05-2
 
 module5-2.ipynb shows the implementation of different functions, softmax function, updates softmax function, _download(), _download_all(), _load_images(), _load_labels(), _create_dataset(), _change_one_hot_label(), _init_dataset,   and MnistData class
 
