@@ -57,3 +57,15 @@ python module5-2.py [train/test] [number]
 for example, 
 python module5-2.py train 109
 and it shows the image with the label, and the label is also printed in terminal. 
+
+
+# 05-3
+mnist.py is Mnist class 
+
+module5_3.py uses the Mnist class and the mnist data set to predict handwritten images, the format to run the file for a specific image is 
+python module5_3.py "./Custom MNIST Samples/Digit 0/0_3.png" 0
+python module5_3.py "image path" expected digit
+
+module5_3.ipynb tests the functions of Mnist class and tests module5_3.py on every single image file that we created using the command 
+!python module5_3.py "./Custom MNIST Samples/Digit 0/0_3.png" 0
+!python module5_3.py "image path" expected digit

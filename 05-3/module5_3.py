@@ -7,7 +7,12 @@ from mnist import Mnist
 from mnist_data import MnistData 
 
 
+""" 
+the format to run the file for a specific image is 
+python module5_3.py "./Custom MNIST Samples/Digit 0/0_3.png" 0
+python module5_3.py "image path" expected digit
 
+"""
 mnist = Mnist()
 mnist.init_network()  
 

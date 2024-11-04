@@ -24,3 +24,6 @@ __pypackages__/
 
 # Ignore the __pycache__ directory (used by Python)
 __pycache__/
+
+#ignore sample_weight.pkl
+sample_weight.pkl
