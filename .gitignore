@@ -28,4 +28,5 @@ __pycache__/
 #ignore sample_weight.pkl
 sample_weight.pkl
 
+# Python Pickle
 *.pkl
