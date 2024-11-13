@@ -69,3 +69,11 @@ python module5_3.py "image path" expected digit
 module5_3.ipynb tests the functions of Mnist class and tests module5_3.py on every single image file that we created using the command 
 !python module5_3.py "./Custom MNIST Samples/Digit 0/0_3.png" 0
 !python module5_3.py "image path" expected digit
+
+
+# 06 
+errors.py has the Errors class
+layers.py has Relu, Sigmoid, Affine, SoftmaxWithLoss Classes
+module6.py uses the model made by train.py to test the mnist dataset
+two_layer_net_with_back_prop has the TwoLayerNetWithBackProp Class
+activations.py has the Activation class
