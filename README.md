@@ -77,3 +77,18 @@ layers.py has Relu, Sigmoid, Affine, SoftmaxWithLoss Classes
 module6.py uses the model made by train.py to test the mnist dataset
 two_layer_net_with_back_prop has the TwoLayerNetWithBackProp Class
 activations.py has the Activation class
+
+# 08 
+le_net.py has LeNet class with the following functions:
+__init__ ()
+_create_lenet()
+_compile()
+_preprocess()
+train()
+save(self, model_path_name)
+load(self, model_path_name)
+predict(self,images)
+
+module8.py uses LeNet class to predict custom images 
+
+module8.ipynb shows how to use LeNet class to train and save the model.
