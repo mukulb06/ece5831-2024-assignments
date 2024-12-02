@@ -92,3 +92,16 @@ predict(self,images)
 module8.py uses LeNet class to predict custom images 
 
 module8.ipynb shows how to use LeNet class to train and save the model.
+
+# 10
+dogs_cats.py: Contains the main DogsCats class implementation with the following features:
+Dataset preparation and organization
+CNN model architecture
+Training and prediction functionality
+Data augmentation capabilities
+
+module10.ipynb: Demonstrates the usage of the DogsCats class with:
+Dataset creation (train/validation/test split)
+Model training configuration
+Training execution and visualization
+Prediction

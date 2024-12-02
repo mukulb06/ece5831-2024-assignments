@@ -30,3 +30,13 @@ sample_weight.pkl
 
 # Python Pickle
 *.pkl
+
+
+# logs
+logs/
+
+#dogs-vs-cats
+dogs-vs-cats/
+
+#dogs-vs-cats-original
+dogs-vs-cats-original/
