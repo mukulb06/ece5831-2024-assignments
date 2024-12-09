@@ -105,3 +105,30 @@ Dataset creation (train/validation/test split)
 Model training configuration
 Training execution and visualization
 Prediction
+
+# 11
+Binary Classification - IMDB (imdb.py)
+The Imdb class performs sentiment analysis on movie reviews using the IMDB dataset:
+prepare_data(): Loads and preprocesses the IMDB dataset.
+build_model(): Creates a neural network with an embedding layer, global average pooling, and dense layers.
+train(): Trains the model on the prepared data.
+plot_loss() and plot_accuracy(): Visualize training and validation metrics.
+evaluate(): Assesses the model's performance on the test set.
+
+Multiclass Classification - Reuters (reuters.py)
+The Reuters class categorizes news articles into multiple topics using the Reuters dataset:
+prepare_data(): Loads and preprocesses the Reuters dataset.
+build_model(): Constructs a neural network with dense layers for multiclass classification.
+train(): Trains the model on the prepared data.
+plot_loss() and plot_accuracy(): Visualize training and validation metrics.
+evaluate(): Assesses the model's performance on the test set.
+
+Regression - BostonHousing (boston_housing.py)
+The BostonHousing class predicts house prices using the Boston Housing dataset:
+prepare_data(): Loads and normalizes the Boston Housing dataset.
+build_model(): Creates a neural network with dense layers for regression.
+train(): Trains the model on the prepared data.
+plot_loss()  Visualize training and validation metrics
+evaluate(): Assesses the model's performance on the test set.
+
+module11 tests all the three classes
